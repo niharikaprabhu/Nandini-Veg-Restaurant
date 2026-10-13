@@ -40,7 +40,7 @@
             <p class="welcome">WELCOME TO</p>
 
             <h1>
-                NRS NANDINI HOTEL
+                Nrs Nandini
             </h1>
 
             <h2>
@@ -81,284 +81,98 @@
     </p>
 
 </section>
-
-    <!-- Menu Section -->
     
 <!-- Menu Section -->
+
 <section class="menu" id="menu">
 
-    <p class="section-label">OUR MENU</p>
-
-    <h2>Flavours to Fall in Love With</h2>
-
-    <p>
-        From comforting tiffins to delicious meals,
-        discover the food we serve at NRS Nandhini Hotel.
-    </p>
-    
-<!-- Menu Category Tabs -->
-
-<div class="menu-tabs">
-
-    <button type="button" class="menu-tab active"
-        onclick="showMenu('tiffins', this)">
-        Tiffins
-    </button>
-
-    <button type="button" class="menu-tab"
-        onclick="showMenu('meals', this)">
-        Meals & Rice
-    </button>
-
-    <button type="button" class="menu-tab"
-        onclick="showMenu('Sweets', this)">
-        Sweets
-    </button>
-
-    <button type="button" class="menu-tab"
-        onclick="showMenu('beverages', this)">
-        Tea & Coffee
-    </button>
-    <button type = "button" class="menu-tab"
-        onclick="showMenu('snacks', this)">
-    Snacks
-</button>
-
-</div>
-
-    <!-- Breakfast & Tiffins -->
-    <div class="menu-category" id="tiffins">
-        <h3>Breakfast & Tiffins</h3>
-
-        <div class="menu-cards">
-
-            <div class="food-card">
-                <h4>Idli</h4>
-                <hr>
-                <p>A soft and comforting South Indian favourite.</p>
-            </div>
-
-            <div class="food-card">
-                <h4>Plain Dosa</h4>
-                <hr>
-                <p>A crispy, golden South Indian classic.</p>
-            </div>
-            <div class="food-card">
-                <h4> Set Dosa</h4>
-                <hr>
-                <p>Soft, fluffy dosas served as a delicious and comforting South Indian favourite.</p>
-            </div>
-            <div class="food-card">
-                <h4>Masala Dosa</h4>
-                <hr>
-                <p>Golden, crispy dosa filled with a spiced potato masala, served with chutney and sambar</p>
-            </div>
-            <div class="food-card">
-                <h4>Onion Dosa</h4>
-                <hr>
-                <p>Crispy dosa topped with flavourful onions for a deliciously savoury bite.</p>
-            </div>
-            <div class="food-card">
-                <h4>Medu Vada</h4>
-                <hr>
-                <p>Golden, crispy on the outside and soft on the inside, a delightful South Indian snack.</p>
-            </div>
-
-            <div class="food-card">
-                <h4>Pesarattu</h4>
-                <hr>
-                <p>A traditional green gram dosa.</p>
-            </div>
-
-            <div class="food-card">
-                <h4>Paneer Masala Dosa</h4>
-                <hr>
-                <p>A dosa with a paneer twist.</p>
-            </div>
-
-        </div>
+    <div class="menu-heading">
+        <p class="section-label">OUR MENU</p>
+        <h2>Flavours to Fall in Love With</h2>
+        <p>Fresh, traditional South Indian favourites made with love.</p>
     </div>
-<!-- Snacks -->
- <div class="menu-category" id="Snacks">
-<h3>Favourites</h3>
-    <div class="menu-cards">
 
-        <div class="food-card">
-            <h4>Upma/Tomato bath</h4>
-            <hr>
-            <p>A traditional, sweet and comforting treat.</p>
-        </div>
-        <div class="food-card">
-            <h4>Pakoda</h4>
-            <hr>
-            <p>A traditional, sweet and comforting treat.</p>
-        </div>
-        <div class="food-card">
-            <h4>Parotha</h4>
-            <hr>
-            <p>A traditional, sweet and comforting treat.</p>
-        </div>
+    <!-- MENU BUTTONS -->
+    <div class="menu-tabs">
+        <button class="menu-tab active"
+            onclick="showMenu('tiffins', this)">Tiffins</button>
 
-        <div class="food-card">
-            <h4>Poori</h4>
-            <hr>
-            <p>A delicious traditional Hyderabadi dessert.</p>
-        </div>
-        <div class="food-card">
-            <h4>Chapathi</h4>
-            <hr>
-            <p>Soft, sweet dumplings soaked in sugar syrup.</p>
-        </div>
-        <div class="food-card">
-            <h4>Mysore Bhaji</h4>
-            <hr>
-            <p>Soft, sweet dumplings soaked in sugar syrup.</p>
-        </div>
+        <button class="menu-tab"
+            onclick="showMenu('meals', this)">Meals & Rice</button>
 
+        <button class="menu-tab"
+            onclick="showMenu('favourites', this)">Favourites</button>
+
+        <button class="menu-tab"
+            onclick="showMenu('beverages', this)">Tea & Coffee</button>
+
+        <button class="menu-tab"
+            onclick="showMenu('snacks', this)">Snacks</button>
     </div>
-</div>
 
-    <!-- Meals & Rice -->
+    <!-- TIFFINS -->
+    <div class="menu-category active" id="tiffins">
+        <h3>Tiffins</h3>
+        <ul>
+            <li>Idli</li>
+            <li>Plain Dosa</li>
+            <li>Masala Dosa</li>
+            <li>Onion Dosa</li>
+            <li>Set Dosa</li>
+            <li>Medu Vada</li>
+            <li>Puri</li>
+            <li>Pesarattu</li>
+            <li>Paneer Masala Dosa</li>
+            <li>Upma</li>
+            <li>Rice Pongal</li>
+            <li>Parota</li>
+        </ul>
+    </div>
+
+    <!-- MEALS AND RICE -->
     <div class="menu-category" id="meals">
-        <h3>Meals & Rice Specials</h3>
-
-        <div class="menu-cards">
-
-            <div class="food-card">
-                <h4>Veg Biryani</h4>
-                <hr>
-                <p>A flavourful rice dish to enjoy.</p>
-            </div>
-
-            <div class="food-card">
-                <h4>Veg Pulao</h4>
-                <hr>
-                <p>A delicious and aromatic rice favourite.</p>
-            </div>
-            <div class="food-card">
-                <h4>Rice Pongal</h4>
-                <hr>
-                <p>A delicious and aromatic rice favourite.</p>
-            </div>
-            <div class="food-card">
-                <h4>Curd Rice</h4>
-                <hr>
-                <p>Creamy, comforting rice mixed with fresh curd, offering a refreshing taste in every bite</p>
-            </div>
-            <div class="food-card">
-                <h4>Lemon Rice</h4>
-                <hr>
-                <p>Tangy lemon-flavoured rice seasoned with aromatic spices.</p>
-            </div>
-
-            <div class="food-card">
-                <h4>Bisibele Bath</h4>
-                <hr>
-                <p>A traditional Karnataka rice and lentil dish.</p>
-            </div>
-            <div class="food-card">
-            <h4>Tomato Rice</h4>
-            <hr>
-            <p>Deliciously tangy tomato rice, seasoned with aromatic spices.</p>
-        </div>
-
-        </div>
+        <h3>Meals & Rice</h3>
+        <ul>
+            <li>Veg Biryani</li>
+            <li>Veg Pulao</li>
+            <li>Curd Rice</li>
+            <li>Lemon Rice</li>
+            <li>Tomato Rice / Tomato Bath</li>
+            <li>Bisibele Bath</li>
+        </ul>
     </div>
 
-        
-<!-- More Favourites -->
-
-<div class="menu-category" id="Sweets">
-    <h3>Delicious Sweets</h3>
-
-    <div class="menu-cards">
-
-        <div class="food-card">
-            <h4>Rava Kesari</h4>
-            <hr>
-            <p>A traditional, sweet and comforting treat.</p>
-        </div>
-
-        <div class="food-card">
-            <h4>Double Ka Meetha</h4>
-            <hr>
-            <p>A delicious traditional Hyderabadi dessert.</p>
-        </div>
-
-        <div class="food-card">
-            <h4>Gulab Jamun</h4>
-            <hr>
-            <p>Soft, sweet dumplings soaked in sugar syrup.</p>
-        </div>
-
+    <!-- FAVOURITES -->
+    <div class="menu-category" id="favourites">
+        <h3>Our Favourites</h3>
+        <ul>
+            <li>Rava Kesari / Sheera</li>
+            <li>Double Ka Meetha</li>
+            <li>Gulab Jamun</li>
+        </ul>
     </div>
-</div>
 
-    <!-- Beverages -->
+    <!-- TEA AND COFFEE -->
     <div class="menu-category" id="beverages">
         <h3>Tea & Coffee</h3>
-
-        <div class="menu-cards">
-
-            <div class="food-card">
-                <h4>Tea</h4>
-                <hr>
-                <p>A comforting cup for your day.</p>
-            </div>
-
-            <div class="food-card">
-                <h4>Coffee</h4>
-                <hr>
-                <p>A warm and refreshing favourite.</p>
-            </div>
-
-        </div>
+        <ul>
+            <li>Tea</li>
+            <li>Filter Coffee</li>
+        </ul>
     </div>
-    <!-- Snacks-->
+
+    <!-- SNACKS -->
     <div class="menu-category" id="snacks">
-        <h3>Evening Snacks</h3>
-        <div class="menu-cards">
-
-        <div class="food-card">
-            <h4>Upma / Tomato Bath</h4>
-            <hr>
-            <p>Warm, savoury and comforting, made with aromatic spices.</p>
-        </div>
-
-<div class="food-card">
-    <h4>Pakoda</h4>
-    <hr>
-    <p>Crispy, golden fritters packed with delicious spices.</p>
-</div>
-
-<div class="food-card">
-    <h4>Parotta</h4>
-    <hr>
-    <p>Flaky, layered flatbread served soft and warm.</p>
-</div>
-
-<div class="food-card">
-    <h4>Poori</h4>
-    <hr>
-    <p>Golden, puffed-up puris that are light, soft and delicious.</p>
-</div>
-
-<div class="food-card">
-    <h4>Chapathi</h4>
-    <hr>
-    <p>Freshly made whole-wheat flatbread, soft and wholesome.</p>
-</div>
-
-<div class="food-card">
-    <h4>Mysore Bhaji</h4>
-    <hr>
-    <p>Soft, fluffy fritters with a crispy outside and savoury flavour.</p>
-</div>
-
-
-</section>
-
-
+        <h3>Snacks & Evening Bites</h3>
+        <ul>
+            <li>Samosa</li>
+            <li>Onion Pakoda</li>
+            <li>Mysore Bhaji</li>
+            <li>Medu Vada</li>
+            <li>Bonda</li>
+            <li>Chapathi</li>
+        </ul>
+    </div>
     <!-- Contact Section -->
     <footer id="contact">
 
